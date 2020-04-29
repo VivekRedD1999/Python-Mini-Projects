@@ -5,8 +5,8 @@ chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers="0123456789"
 symbols="!~@#$%^&*/.,:';"
 password=''
-number=int(input("numbers required(1/0)"))
-symbol=int(input("symbols required(1/0)"))
+number=int(input("numbers required(1/0)")) # if you need numbers in your Password enter 1(True) else 0(False)
+symbol=int(input("symbols required(1/0)"))  # if you need symbols in your Password enter 1(True) else 0(False)
 for l in range(nopass):
     password=''
     for i in range(length):
